@@ -1,0 +1,16 @@
+nav {
+  display: block;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a p {
+  color: white;
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}

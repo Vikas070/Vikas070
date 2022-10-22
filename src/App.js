@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { RoutesConfig } from "../src/components/route/Routes";
+import Header from "./components/header/Header";
+import { Grid } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid
+      container
+      display={"flex"}
+      flexDirection={"column"}
+      justifyContent="space-between"
+      style={{
+        backgroundColor: "#1f1f1f",
+        color: "#f8f8f8",
+        width: "100%",
+      }}
+    >
+      <Grid item xs={12}>
+        <Header />
+      </Grid>
+      <Grid item xs={12}>
+        <RoutesConfig />
+      </Grid>
+      <Grid item xs={12}></Grid>
+    </Grid>
   );
 }
 

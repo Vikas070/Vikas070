@@ -1,0 +1,14 @@
+
+.text {
+	text-transform: uppercase;
+	background: linear-gradient(135deg, rgb(0, 255, 164), rgb(166, 104, 255));
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.hand {
+    animation-name: wave;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
