@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Vikas070/static/css/main.5988c6ab.css",
+    "main.js": "/Vikas070/static/js/main.9b3447b1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Vikas070/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile2.png": "/Vikas070/static/media/profile2.121cc9db5a9a8f5a6178.png",
+    "index.html": "/Vikas070/index.html",
+    "main.5988c6ab.css.map": "/Vikas070/static/css/main.5988c6ab.css.map",
+    "main.9b3447b1.js.map": "/Vikas070/static/js/main.9b3447b1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Vikas070/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5988c6ab.css",
+    "static/js/main.9b3447b1.js"
+  ]
+}
