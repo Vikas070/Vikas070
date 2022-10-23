@@ -1,6 +1,7 @@
 import { RoutesConfig } from "../src/components/route/Routes";
 import Header from "./components/header/Header";
 import { Grid } from "@mui/material";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
       <Grid item xs={12}>
         <RoutesConfig />
       </Grid>
-      <Grid item xs={12}></Grid>
+      <Grid item xs={12}>
+        <Footer />
+      </Grid>
     </Grid>
   );
 }
