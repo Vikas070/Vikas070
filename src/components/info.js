@@ -36,7 +36,7 @@ export const info = {
     },
     {
       emoji: "💼",
-      text: "Associate Software Engineer at Vertisystem",
+      text: "<a style='text-decoration: none; color: #f8f8f8;' href='https://www.linkedin.com/company/vertisystem/about/' target='_blank' rel='noreferrer'>Associate Software Engineer at Vertisystem</a>",
     },
     {
       emoji: "📧",

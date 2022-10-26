@@ -1,5 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
+import "./homeStyles.css";
 
 function EmojiBullet(props) {
   const { emoji, text } = props;
@@ -20,7 +21,10 @@ function EmojiBullet(props) {
       >
         {emoji}
       </Box>{" "}
-      <span dangerouslySetInnerHTML={{ __html: text }} />
+      <span
+        className="animate-charcter"
+        dangerouslySetInnerHTML={{ __html: text }}
+      />
     </Box>
   );
 }

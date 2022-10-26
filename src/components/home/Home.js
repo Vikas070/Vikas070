@@ -30,9 +30,14 @@ const Home = () => {
       <Box>
         <h1>
           Hi, I'm <span className="text">{info.firstName}</span>
-          <span className={"hand"}>🤚</span>
+          <span alt="namaste" className={"hand"}>
+            🧑‍💻
+          </span>
         </h1>
-        <h2>I'm {info.position}.</h2>
+        <div class="content">
+          <h2>I'm {info.position}.</h2>
+          <h2>I'm {info.position}.</h2>
+        </div>
         <Box component={"ul"} p={"0.8rem"}>
           {info.miniBio.map((bio, index) => (
             <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />
